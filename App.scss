@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(58, 54, 54, 0.986);
+
+    * {
+        padding: 15px;
+        color: white;
+    }
+    .link {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: rgb(251, 186, 88);
+            text-decoration: underline;
+        }
+    }
+}
+.button{
+    background-color: orange;
+    border: rgb(221, 145, 4);
+    &:hover{
+        background-color: rgb(221, 145, 4);
+    }
+}
+.App {
+    text-align: center;
+}
